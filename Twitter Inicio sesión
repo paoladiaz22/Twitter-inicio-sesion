@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>Iniciar sesión en Twitter/ Twitter</title>
+</head>
+<h2 style="color:White;">Iniciar sesión en Twitter</h2>
+<body style="background-color: rgb(21,32,43);">
+<p>
+<style>
+a:link {
+  color: dodgerblue;
+  
+}
+a:visited {
+  color: dodgerblue;
+}
+a:hover {
+  color: dodgerblue;
+
+}
+a:active {
+  color: dodgerblue;
+}
+</style>
+<a href="https://twitter.com/account/begin_password_reset" target="_blank" href="https://twitter.com/i/flow/signup" target="_self">¿Ovidaste tu contraseña?</a> 
+<a href="https://twitter.com/i/flow/signup">Regístrate en Twitter</a></p>
