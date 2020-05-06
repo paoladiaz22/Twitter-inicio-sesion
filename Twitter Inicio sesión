@@ -1,25 +1,56 @@
 <html>
-<head>
-<title>Iniciar sesión en Twitter/ Twitter</title>
-</head>
-<h2 style="color:White;">Iniciar sesión en Twitter</h2>
-<body style="background-color: rgb(21,32,43);">
-<p>
-<style>
-a:link {
-  color: dodgerblue;
-  
-}
-a:visited {
-  color: dodgerblue;
-}
-a:hover {
-  color: dodgerblue;
+    <head>
+        <script src="https://kit.fontawesome.com/c70a0384a3.js" crossorigin="anonymous"></script>
+    </head>
+    <body style="background-color: rgb(21,32,43);"></body>
+    <body>
+        <style type="text/css">
+    
+            a:link {
+              color: dodgerblue;
+            align="center";
+            
+            }
+            a:visited {
+              color: dodgerblue;
+            align="center";
+            }
+            a:hover {
+              color: dodgerblue;
+            align="center";
+            
+            }
+            a:active {
+              color: dodgerblue;
+            align="center";
+            }
+            
+    
+            }
+            </style>
+        <i icono class="fab fa-twitter"></i>
+        <form class="formulario">
+            <h1 style="color:White;">Iniciar sesión en Twitter</h1>
+            <div class="contenedor">
+                <div class="input-contenedor">
+                    
+                    <input type="text" placeholder="Teléfono, correo o usuario">
 
-}
-a:active {
-  color: dodgerblue;
-}
-</style>
-<a href="https://twitter.com/account/begin_password_reset" target="_blank" href="https://twitter.com/i/flow/signup" target="_self">¿Ovidaste tu contraseña?</a> 
-<a href="https://twitter.com/i/flow/signup">Regístrate en Twitter</a></p>
+                </div>
+
+                <div class="input-contenedor">
+                    
+                    <input type="password" placeholder="Contraseña">
+
+                </div>
+                <input type="submit" value="Iniciar sesión" class="button">
+                
+<p>
+    
+                <a href="https://twitter.com/account/begin_password_reset" target="_blank" href="https://twitter.com/i/flow/signup" target="_self">¿Ovidaste tu contraseña?</a> 
+                    <a href="https://twitter.com/i/flow/signup" >Regístrate en Twitter</a></p>
+               
+            </div>
+        </form>
+    </body>
+</html>
