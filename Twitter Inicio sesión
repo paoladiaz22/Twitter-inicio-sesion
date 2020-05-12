@@ -8,47 +8,68 @@
     
             a:link {
               color: dodgerblue;
-            align="center";
-            
+           
             }
+            
             a:visited {
               color: dodgerblue;
-            align="center";
-            }
+            
             a:hover {
               color: dodgerblue;
-            align="center";
+            
             
             }
             a:active {
               color: dodgerblue;
-            align="center";
+           
             }
+          }}
+ 
             
-    
-            }
             </style>
-        <i icono class="fab fa-twitter"></i>
-        <form class="formulario">
-            <h1 style="color:White;">Iniciar sesión en Twitter</h1>
-            <div class="contenedor">
+           
+        <i icono class="fab fa-twitter" style="text-align:center ; color:white; padding: 2px; margin-top: 50px; margin-left: 350px;margin-right: 350px;"></i>
+        <form class="formulario" style="margin-top:100px ;width:100%;
+        padding:2px; text-align:cenet;">
+            <h1 style="color:White; text-align:center; font-size:25px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Iniciar sesión en Twitter</h1>
+            <div class="contenedor" style="width:100%;
+            padding:15px; text-align:center;" >
                 <div class="input-contenedor">
                     
-                    <input type="text" placeholder="Teléfono, correo o usuario">
+                    <input type="text" placeholder="Teléfono, correo o usuario" style="background-color: rgb(21,32,43); ">
 
                 </div>
 
                 <div class="input-contenedor">
                     
-                    <input type="password" placeholder="Contraseña">
+                    <input type="password" placeholder="Contraseña" style="background-color: rgb(21,32,43);">
 
                 </div>
-                <input type="submit" value="Iniciar sesión" class="button">
+                <input type="submit" value="Iniciar sesión" class="button" style="text-decoration: none;
+                padding: 4px;
+                padding-left: 100px;
+                padding-right: 100px;
+                font-family: arial;
+                font-weight: 300;
+                font-size: 15px;
+                font-style: italic;
+                color: white;
+                background-color: dodgerblue;
+                border-radius: 15px;
+                text-align:center;
+                
+              }
+              .boton_1:hover{
+            
+                opacity: 0.2;
+                text-decoration: none;
+              }">
+               
                 
 <p>
     
-                <a href="https://twitter.com/account/begin_password_reset" target="_blank" href="https://twitter.com/i/flow/signup" target="_self">¿Ovidaste tu contraseña?</a> 
-                    <a href="https://twitter.com/i/flow/signup" >Regístrate en Twitter</a></p>
+                <a href="https://twitter.com/account/begin_password_reset" target="_blank" href="https://twitter.com/i/flow/signup" target="_self" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">¿Ovidaste tu contraseña?</a> 
+                    <a href="https://twitter.com/i/flow/signup" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif " >Regístrate en Twitter</a></p>
                
             </div>
         </form>
